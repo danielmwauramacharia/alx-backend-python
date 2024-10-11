@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+"""module: More on annotationns"""
 from typing import Any, Mapping, TypeVar, Union
 
 T = TypeVar('T')
