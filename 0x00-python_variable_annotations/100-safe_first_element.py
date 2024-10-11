@@ -2,12 +2,8 @@
 """module: duck typing annotation"""
 from typing import Sequence, Any, Union
 
-type NoneType = None
-Lists = Sequence[Any]
-Rtn = Union[Any, NoneType]
 
-
-def safe_first_element(lst: Lists) -> Rtn:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """Duck typing annotations"""
     if lst:
         return lst[0]
