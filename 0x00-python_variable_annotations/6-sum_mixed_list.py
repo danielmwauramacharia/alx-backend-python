@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """module: takes mixed list and return sum as float"""
 from typing import List, Union
 
