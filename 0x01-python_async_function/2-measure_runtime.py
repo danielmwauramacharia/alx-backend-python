@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Module: measure time"""
+from typing import List
 import time
 import asyncio
 
