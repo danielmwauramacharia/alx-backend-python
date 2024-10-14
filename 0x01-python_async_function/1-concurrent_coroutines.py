@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+##!/usr/bin/env python3
 """module: working with multiple coroutines"""
 import asyncio
 
@@ -11,4 +11,5 @@ async def wait_n(n: int, max_delay: int) -> list:
     for _ in range(n):
         output = await asyncio.gather(wait_random(max_delay))
         result.extend(output)
-    return result
+    delays_ = sorted(result)
+    return delays_
